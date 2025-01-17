@@ -33,7 +33,7 @@ module.exports = { // jeito antigo
     resolve: { //pra ele saber quais arquivos ele precisa tratar
         extensions: [".js", ".jsx"],
     },
-    plugin: [ // pluginss
+    plugins: [ // pluginss
         new HtmlWebPackPlugin({
             template: './public/index.html' //aonde ele vai exporta o arquivo final
         })
